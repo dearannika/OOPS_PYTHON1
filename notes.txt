@@ -1,0 +1,31 @@
+ Instance Attributes vs. Class Attributes
+Instance Attributes:
+
+These are specific to each object (instance) of a class.
+They are defined inside the constructor method (__init__()) using self.
+Each instance can have its own unique value for the instance attributes.
+
+
+
+Class Attributes:
+
+These are shared by all instances of the class.
+They are defined directly within the class but outside of any instance methods.
+Changing a class attribute affects all instances.
+
+
+Summary:
+Instance Attributes: Defined in the __init__() method using self; unique to each instance.
+
+Class Attributes: Defined directly in the class; shared by all instances.
+Methods:
+
+
+Instance methods:  Use self to access instance-specific data.
+
+
+Class methods:  Use cls to access or modify class-level data.
+Static methods :  No access to class or instance attributes; behave like regular functions within a class.
+ 
+
+self is used to access attributes and methods of the current instance of the class.
